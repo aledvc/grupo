@@ -1,0 +1,223 @@
+body {
+    font-family: 'Franklin Gothic Medium';
+    background-color: rgb(249 247 247);
+    margin: 0;
+}
+
+header {
+    display: flex;
+    min-height: 70px;
+    border-color: grey;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nombreempresa{
+    margin: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: rgb(226, 96, 176)
+}
+
+nav a{
+    font-weight: 600px;
+    padding-right: 10px;
+    color: black;
+    text-decoration: none;
+    
+}
+nav a:hover{
+    color: rgb(226, 96, 176)
+}
+@media (max-width:300px) {
+    .flex-container{
+        flex-direction: column;
+    }
+}
+
+/* /seccion1/ */
+.seccion1{
+    border: 15px;
+     /* margin: 15px;  */
+    padding: 0px;
+}
+.inicio{
+    position: relative;
+    width: auto;
+    height: 100vh;
+    color: black;
+    background-image:url(imagenes/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inicio1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.inicio2{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.inicio1 h1{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+.inicio2 button{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(230, 80, 130);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* /seccion2/ */
+#quienes-somos {
+    display: flex;
+    align-items: center;
+    margin: 200px;
+  }
+  
+  .quienessomos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px; /* Ajusta el margen derecho de la primera imagen según tus necesidades */
+  }
+  
+  .textoquienessomos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px;
+  }
+  
+  h2 {
+    display: inline;
+    color: black;
+   
+  }
+  
+  h2 span {
+    color: rgb(230, 80, 130);
+  
+  }
+
+/* /seccion3/ */
+#nuestros-programas{
+    border: 15px;
+    margin: 15px;
+    padding: 20px;
+    background-color: rgba(14, 11, 11, 0.808);
+}
+
+.seccion3 h2{
+    color: white;
+    /* acomodar texto al centro */
+}
+
+.seccion3 h4{
+    color: white;
+}
+
+.seccion3 button{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(230, 80, 150);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.caja_padre{
+    display: flex;
+    background-color: fuchsia;
+    margin: auto; 
+    border: 2px solid black ;
+    width: 600px;
+    height: 400px; 
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+
+.caja_hija{
+    display: flex;
+    flex-wrap: wrap; 
+    background-color: yellow;
+    border: 2px solid black ;
+    width: 100px;
+    height: 150px;
+    gap: 20px;
+     /* align-items: center;
+    justify-content: center;   */
+    
+}
+
+
+/* /seccion4/ */
+.seccion4{
+    border: 15px;
+    margin: 15px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+       
+}
+
+.seccion4 ul{
+    font-size: 20px;
+    list-style:none;
+}
+.seccion4 img{
+    width: 350px;
+       
+}
+
+
+/* /seccion5/ */
+
+.seccion5{
+    border: 15px;
+    margin: 15px;
+    padding: 20px;
+    background-color: rgb(226, 96, 176);  
+}
+
+.seccion5 h4{
+    color: rgb(226, 232, 236);
+    text-align: center;
+    font-size:60px;
+}
+.seccion5 button{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(180, 34, 102);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+footer{
+    text-align: right;
+    color: grey;
+}
